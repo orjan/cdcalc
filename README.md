@@ -3,6 +3,9 @@
 [![codecov](https://codecov.io/gh/cdcalc/cdcalc/branch/master/graph/badge.svg)](https://codecov.io/gh/cdcalc/cdcalc)
 [![Download](https://api.bintray.com/packages/cdcalc/cdcalc/cdcalc/images/download.svg)](https://bintray.com/cdcalc/cdcalc/cdcalc/_latestVersion)
 
+## Azure build
+[![Build status](https://dev.azure.com/icagruppen/lzt235-partsunlimited/_apis/build/status/orjan.cdcalc)](https://dev.azure.com/icagruppen/lzt235-partsunlimited/_build/latest?definitionId=9)
+
 The goal is to provide a simple way to automatically calculate a Semantic Version for projects that are delivered frequently enough to not be able to handle versioning manually but not frequent enough to be able to utilize Continous Deployment.
 
 ## How to use CDCalc?
