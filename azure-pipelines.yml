@@ -28,4 +28,4 @@ steps:
     monitorOnBuild: true
     failOnIssues: true
     projectName: 'cdcalc'
-    organization: 'cdcalc'
+    organization: 'orjan'
