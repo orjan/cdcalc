@@ -27,6 +27,5 @@ steps:
     testType: 'app'
     monitorOnBuild: true
     failOnIssues: true
-    projectName: 'cdcalc'
     organization: 'orjan'
     additionalArguments: '--all-sub-projects'
