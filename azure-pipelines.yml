@@ -13,10 +13,10 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task: WhiteSource Bolt@20
-
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     ./gradlew build
   displayName: 'Run a multi-line script'
+
+- task: WhiteSource Bolt@20
