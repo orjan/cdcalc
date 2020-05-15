@@ -20,3 +20,12 @@ steps:
   displayName: 'Run a multi-line script'
 
 - task: WhiteSource Bolt@20
+
+- task: SnykSecurityScan@0
+  inputs:
+    serviceConnectionEndpoint: 'orjan-snyk'
+    testType: 'app'
+    monitorOnBuild: true
+    failOnIssues: true
+    projectName: 'cdcalc'
+    organization: 'cdcalc'
