@@ -6,7 +6,7 @@ plugins {
     kotlin("jvm") version "1.3.10"
     `maven-publish`
     id("com.github.cdcalc") version "0.0.21"
-    id("com.jfrog.bintray") version "1.8.4"
+    id("com.jfrog.bintray") version "1.8.5"
 }
 
 group = "com.github.cdcalc"
