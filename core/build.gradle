@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    compile 'org.eclipse.jgit:org.eclipse.jgit:5.2.0.201812061821-r'
+    compile 'org.eclipse.jgit:org.eclipse.jgit:5.13.3.202401111512-r'
     testRuntime 'ch.qos.logback:logback-classic:1.2.3'
 }
 
