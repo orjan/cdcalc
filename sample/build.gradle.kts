@@ -3,7 +3,7 @@ import org.gradle.api.tasks.bundling.Jar
 import com.jfrog.bintray.gradle.tasks.BintrayUploadTask
 
 plugins {
-    kotlin("jvm") version "1.3.10"
+    kotlin("jvm") version "1.9.25"
     `maven-publish`
     id("com.github.cdcalc") version "0.0.21"
     id("com.jfrog.bintray") version "1.8.4"
