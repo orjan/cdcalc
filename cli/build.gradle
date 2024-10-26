@@ -1,5 +1,5 @@
 dependencies {
-    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'ch.qos.logback:logback-classic:1.5.12'
 }
 
 apply plugin: 'application'
