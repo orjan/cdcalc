@@ -86,6 +86,6 @@ tasks.named("publishToMavenLocal").configure {
 }
 
 tasks.wrapper {
-    this.gradleVersion = "5.1"
+    this.gradleVersion = "8.14.3"
     this.distributionType = Wrapper.DistributionType.ALL
 }
